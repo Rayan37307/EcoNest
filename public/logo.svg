@@ -1,0 +1,18 @@
+<svg width="1693" height="929" viewBox="0 0 1693 929" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1693" height="929" rx="40" fill="white"/>
+  <path d="M305 692L512 430L717 692H305Z" fill="#2F7D4E"/>
+  <path d="M381 692V544H637V692H381Z" fill="#1F5A37"/>
+  <path d="M408 558V472H610V558H408Z" fill="#6DBE4F"/>
+  <path d="M470 470H548V560H470V470Z" fill="#C4E86B"/>
+  <path d="M674 427C674 389.026 703.026 360 741 360H804C841.974 360 871 389.026 871 427V692H674V427Z" fill="#2F7D4E"/>
+  <path d="M720 420C720 388.026 745.026 363 777 363H842C874 363 899 388.026 899 420V692H720V420Z" fill="#1F5A37"/>
+  <path d="M744 420V365H819V420H744Z" fill="#C4E86B"/>
+  <path d="M890 692V447C890 352.5 963.5 279 1058 279H1150C1244.5 279 1318 352.5 1318 447V692" stroke="#2F7D4E" stroke-width="52" stroke-linecap="round"/>
+  <path d="M1172 692V523H1246V692H1172Z" fill="#2F7D4E"/>
+  <path d="M929 692V561H1033V692H929Z" fill="#1F5A37"/>
+  <path d="M1302 692V531H1428V692H1302Z" fill="#2F7D4E"/>
+  <rect x="1008" y="420" width="196" height="112" rx="24" fill="#6DBE4F"/>
+  <rect x="1426" y="422" width="174" height="112" rx="24" fill="#C4E86B"/>
+  <text x="320" y="820" fill="#1F5A37" font-family="Georgia, serif" font-size="220" font-weight="700">EcoNest</text>
+  <text x="320" y="875" fill="#6B7280" font-family="Arial, sans-serif" font-size="92" font-weight="500">BUILDERS LIMITED</text>
+</svg>
