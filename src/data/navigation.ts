@@ -37,6 +37,7 @@ export const socialLinks = [
 export const contactInfo = {
   address: "Ka-5/4, Mega Food Court, 1st Floor, Beside Jamuna Future Park, Bashundhara R/A, Dhaka, Bangladesh",
   phone: "+880 1731-883700",
+  phone2: "+880 1716-104399",
   email: "econestbuildersltd@gmail.com",
   hours: "Sun - Thu: 9:00 AM - 6:00 PM",
 };

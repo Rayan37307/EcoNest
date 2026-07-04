@@ -145,6 +145,9 @@ export default function ContactSection() {
                     <p className="mt-1 text-sm text-charcoal/80">
                       {contactInfo.phone}
                     </p>
+                    <p className="mt-0.5 text-sm text-charcoal/80">
+                      {contactInfo.phone2}
+                    </p>
                   </div>
                 </div>
 
