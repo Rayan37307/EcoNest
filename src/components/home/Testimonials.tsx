@@ -7,6 +7,8 @@ import ScrollReveal from "@/components/ui/ScrollReveal";
 import { testimonials } from "@/data/testimonials";
 import { cn } from "@/lib/utils";
 
+// Only keep ScrollReveal for the section heading, not for carousel items
+
 export default function Testimonials() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isPaused, setIsPaused] = useState(false);
@@ -57,40 +59,38 @@ export default function Testimonials() {
                   : "opacity-0 translate-y-4 pointer-events-none"
               )}
             >
-              <ScrollReveal delay={100}>
-                <div className="mx-auto max-w-3xl text-center">
-                  {/* Decorative quote mark */}
-                  <div className="mb-6 text-6xl leading-none text-gold/40 md:text-7xl">
-                    &ldquo;
-                  </div>
-
-                  {/* Quote text */}
-                  <blockquote className="mb-8 text-xl leading-relaxed font-heading italic text-cream/90 md:text-2xl">
-                    {testimonial.quote}
-                  </blockquote>
-
-                  {/* Divider */}
-                  <div className="mx-auto mb-6 h-px w-12 bg-gold/50" />
-
-                  {/* Client info */}
-                  <div className="flex flex-col items-center gap-3">
-                    {/* Photo */}
-                    <Image
-                      src={testimonial.photo}
-                      alt={testimonial.name}
-                      width={64}
-                      height={64}
-                      className="h-16 w-16 rounded-full object-cover"
-                    />
-                    <p className="text-lg font-semibold text-white">
-                      {testimonial.name}
-                    </p>
-                    <p className="text-sm text-stone">
-                      {testimonial.title}
-                    </p>
-                  </div>
+              <div className="mx-auto max-w-3xl text-center">
+                {/* Decorative quote mark */}
+                <div className="mb-6 text-6xl leading-none text-gold/40 md:text-7xl">
+                  &ldquo;
                 </div>
-              </ScrollReveal>
+
+                {/* Quote text */}
+                <blockquote className="mb-8 text-xl leading-relaxed font-heading italic text-cream/90 md:text-2xl">
+                  {testimonial.quote}
+                </blockquote>
+
+                {/* Divider */}
+                <div className="mx-auto mb-6 h-px w-12 bg-gold/50" />
+
+                {/* Client info */}
+                <div className="flex flex-col items-center gap-3">
+                  {/* Photo */}
+                  <Image
+                    src={testimonial.photo}
+                    alt={testimonial.name}
+                    width={64}
+                    height={64}
+                    className="h-16 w-16 rounded-full object-cover"
+                  />
+                  <p className="text-lg font-semibold text-white">
+                    {testimonial.name}
+                  </p>
+                  <p className="text-sm text-stone">
+                    {testimonial.title}
+                  </p>
+                </div>
+              </div>
             </div>
           ))}
         </div>

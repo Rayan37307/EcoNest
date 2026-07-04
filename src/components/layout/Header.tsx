@@ -7,12 +7,10 @@ import { usePathname } from "next/navigation";
 import { useScrollPosition } from "@/hooks/useScrollPosition";
 import { navLinks } from "@/data/navigation";
 import { cn } from "@/lib/utils";
+import MobileMenu from "./MobileMenu";
 
-interface HeaderProps {
-  onMenuToggle?: () => void;
-}
-
-export default function Header({ onMenuToggle }: HeaderProps) {
+export default function Header() {
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const { isScrolled } = useScrollPosition();
   const pathname = usePathname();
 
@@ -69,7 +67,7 @@ export default function Header({ onMenuToggle }: HeaderProps) {
             {/* Mobile Hamburger */}
             <button
               type="button"
-              onClick={() => onMenuToggle?.()}
+              onClick={() => setMobileMenuOpen(true)}
               className="lg:hidden flex flex-col items-center justify-center w-10 h-10 gap-1.5"
               aria-label="Open menu"
             >
@@ -81,5 +79,7 @@ export default function Header({ onMenuToggle }: HeaderProps) {
         </div>
       </div>
     </header>
+    <MobileMenu isOpen={mobileMenuOpen} onClose={() => setMobileMenuOpen(false)} />
+    </>
   );
 }
