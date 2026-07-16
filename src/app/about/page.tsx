@@ -1,3 +1,4 @@
+import Image from "next/image";
 import ScrollReveal from "@/components/ui/ScrollReveal";
 import SectionHeading from "@/components/ui/SectionHeading";
 
@@ -53,17 +54,14 @@ const milestones = [
 
 const leadershipTeam = [
   {
-    role: "Founder & Director",
+    role: "Chairman",
+    image: "/chairman.jpeg",
     description:
       "The driving force behind EcoNest's legacy, values, and long-term vision for green, meaningful living.",
   },
   {
-    role: "Director",
-    description:
-      "Leading growth, partnerships, and design excellence across the company's evolving portfolio.",
-  },
-  {
     role: "Managing Director",
+    image: "/managing director.jpeg",
     description:
       "Ensuring smooth execution, operational excellence, and a premium experience for every client.",
   },
@@ -245,20 +243,23 @@ export default function AboutPage() {
           <ScrollReveal>
             <SectionHeading
               label="Leadership"
-              title="Founder, Director & Beyond"
+              title="Chairman & Managing Director"
               description="The people behind EcoNest bring experience, integrity, and a shared commitment to delivering refined living spaces."
               align="center"
             />
           </ScrollReveal>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 mt-16 max-w-3xl mx-auto">
             {leadershipTeam.map((person, index) => (
               <ScrollReveal key={person.role} delay={index * 0.1}>
-                <div className="bg-cream rounded-lg p-8 h-full shadow-sm">
-                  <div className="w-14 h-14 rounded-full bg-primary/10 flex items-center justify-center mb-5">
-                    <span className="text-lg font-semibold text-primary">
-                      {index + 1}
-                    </span>
+                <div className="bg-cream rounded-lg p-8 h-full shadow-sm text-center">
+                  <div className="relative w-28 h-28 rounded-full overflow-hidden mx-auto mb-5 ring-4 ring-primary/10">
+                    <Image
+                      src={person.image}
+                      alt={person.role}
+                      fill
+                      className="object-cover"
+                    />
                   </div>
                   <p className="text-sm font-semibold uppercase tracking-[0.2em] text-primary mb-3">
                     {person.role}
