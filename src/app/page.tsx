@@ -29,7 +29,7 @@ const leadershipRoles = [
       "Bringing strategic direction and steady governance to guide EcoNest Properties' continued growth.",
   },
   {
-    role: "Advisor",
+    role: "Director",
     name: "Shirin Akther",
     description:
       "Offering seasoned counsel and industry insight to strengthen EcoNest Properties' long-term vision.",
@@ -55,7 +55,7 @@ export default function HomePage() {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mt-16">
             {leadershipRoles.map((person, index) => (
-              <ScrollReveal key={person.role} delay={index * 0.1}>
+              <ScrollReveal key={person.name ?? person.role} delay={index * 0.1}>
                 <div className="bg-white rounded-lg p-8 shadow-sm h-full text-center">
                   {person.image && (
                     <div className="relative w-28 h-28 rounded-full overflow-hidden mx-auto mb-5 ring-4 ring-primary/10">
