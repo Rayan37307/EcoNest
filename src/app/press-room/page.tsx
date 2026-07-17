@@ -19,34 +19,34 @@ interface MediaCoverage {
 const featuredArticle = {
   publication: "The Daily Star",
   date: "June 15, 2026",
-  title: "EcoNest Sets New Benchmark for Sustainable Luxury Living in Dhaka",
+  title: "EcoNest Properties Sets New Benchmark for Sustainable Luxury Living in Dhaka",
   excerpt:
-    "In an exclusive interview, EcoNest's CEO discusses the company's groundbreaking approach to combining eco-friendly design with premium residential living. The feature highlights their flagship EcoVista Residences project, which has earned LEED certification and is setting new standards for green building practices in Bangladesh's real estate sector.",
+    "In an exclusive interview, EcoNest Properties' CEO discusses the company's groundbreaking approach to combining eco-friendly design with premium residential living. The feature highlights their flagship EcoVista Residences project, which has earned LEED certification and is setting new standards for green building practices in Bangladesh's real estate sector.",
   category: "Feature",
 };
 
 const pressReleases: PressRelease[] = [
   {
     date: "May 28, 2026",
-    title: "EcoNest Announces Expansion to Chittagong with Three New Projects",
+    title: "EcoNest Properties Announces Expansion to Chittagong with Three New Projects",
     excerpt:
       "The company has unveiled plans to invest BDT 500 crore in three new residential and mixed-use developments in the port city, marking a significant milestone in its national expansion strategy.",
   },
   {
     date: "April 12, 2026",
-    title: "EcoNest Wins 'Best Sustainable Developer' at Bangladesh Real Estate Awards 2026",
+    title: "EcoNest Properties Wins 'Best Sustainable Developer' at Bangladesh Real Estate Awards 2026",
     excerpt:
-      "For the third consecutive year, EcoNest has been recognized for its commitment to sustainable construction practices and community-focused development at the prestigious national awards ceremony.",
+      "For the third consecutive year, EcoNest Properties has been recognized for its commitment to sustainable construction practices and community-focused development at the prestigious national awards ceremony.",
   },
   {
     date: "March 5, 2026",
-    title: "EcoNest Partners with JAAGO Foundation for Education Initiative",
+    title: "EcoNest Properties Partners with JAAGO Foundation for Education Initiative",
     excerpt:
       "A new CSR partnership will fund the construction of two primary schools in underserved communities, providing quality education access to over 600 children annually.",
   },
   {
     date: "January 18, 2026",
-    title: "EcoNest Launches EcoVista Residences — Dhaka's First LEED-Certified Tower",
+    title: "EcoNest Properties Launches EcoVista Residences — Dhaka's First LEED-Certified Tower",
     excerpt:
       "The grand launch of EcoVista Residences introduces Bangladesh's first LEED-certified residential high-rise, featuring solar panels, rainwater harvesting, and smart home technology.",
   },
@@ -56,19 +56,19 @@ const mediaCoverage: MediaCoverage[] = [
   {
     publication: "The Daily Star",
     date: "June 15, 2026",
-    headline: "EcoNest Sets New Benchmark for Sustainable Luxury Living in Dhaka",
+    headline: "EcoNest Properties Sets New Benchmark for Sustainable Luxury Living in Dhaka",
     category: "Feature",
   },
   {
     publication: "Dhaka Tribune",
     date: "May 30, 2026",
-    headline: "Green Building Revolution: How EcoNest Is Changing the Game",
+    headline: "Green Building Revolution: How EcoNest Properties Is Changing the Game",
     category: "Opinion",
   },
   {
     publication: "The Business Standard",
     date: "April 14, 2026",
-    headline: "EcoNest Sweeps Bangladesh Real Estate Awards 2026",
+    headline: "EcoNest Properties Sweeps Bangladesh Real Estate Awards 2026",
     category: "News",
   },
   {
@@ -80,7 +80,7 @@ const mediaCoverage: MediaCoverage[] = [
   {
     publication: "Your Placeholder Here",
     date: "February 10, 2026",
-    headline: "Why Homebuyers Are Choosing EcoNest in 2026",
+    headline: "Why Homebuyers Are Choosing EcoNest Properties in 2026",
     category: "Analysis",
   },
 ];
@@ -176,7 +176,7 @@ export default function PressRoomPage() {
             <SectionHeading
               label="PRESS RELEASES"
               title="Official Announcements"
-              description="Stay updated with the latest news and announcements from EcoNest."
+              description="Stay updated with the latest news and announcements from EcoNest Properties."
               align="center"
             />
           </ScrollReveal>
@@ -215,7 +215,7 @@ export default function PressRoomPage() {
             <SectionHeading
               label="MEDIA COVERAGE"
               title="As Seen In"
-              description="EcoNest has been featured in leading publications across Bangladesh."
+              description="EcoNest Properties has been featured in leading publications across Bangladesh."
               align="center"
             />
           </ScrollReveal>

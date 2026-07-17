@@ -34,7 +34,7 @@ const slides: Slide[] = [
     label: "WELCOME TO ECONEST",
     heading: "Building Tomorrow's Heritage",
     subtitle:
-      "Join a community of discerning homeowners who trust EcoNest for uncompromising quality and timeless design.",
+      "Join a community of discerning homeowners who trust EcoNest Properties for uncompromising quality and timeless design.",
   },
 ];
 
