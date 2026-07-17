@@ -13,8 +13,8 @@
   --color-black: #000000;
 
   /* Font families */
-  --font-heading: "Playfair Display", serif;
-  --font-body: "Inter", sans-serif;
+  --font-heading: "Space Grotesk", sans-serif;
+  --font-body: "Poppins", sans-serif;
 
   /* Custom spacing */
   --spacing-section-sm: 4rem;
