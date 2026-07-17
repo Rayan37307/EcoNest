@@ -30,7 +30,7 @@ const leadershipRoles = [
   },
   {
     role: "Director",
-    name: "Afroza Begum",
+    name: "Nusrat Jahan Oishe",
     description:
       "Bringing strategic direction and steady governance to guide EcoNest Properties' continued growth.",
   },
