@@ -317,7 +317,7 @@ export default function PressRoomPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center text-stone">
               <a
-                href="mailto:press@econest.com.bd"
+                href="mailto:econestpropertiesbd@gmail.com"
                 className="flex items-center gap-2 text-primary font-medium hover:underline"
               >
                 <svg
@@ -333,7 +333,7 @@ export default function PressRoomPage() {
                     d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
                   />
                 </svg>
-                press@econest.com.bd
+                econestpropertiesbd@gmail.com
               </a>
               <span className="text-stone/30 hidden sm:block">|</span>
               <div className="flex flex-col sm:flex-row sm:items-center sm:gap-2">

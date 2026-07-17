@@ -77,7 +77,7 @@ const contactInfo: ContactInfo[] = [
   },
   {
     label: "Email",
-    value: "econestbuildersltd@gmail.com",
+    value: "econestpropertiesbd@gmail.com",
     sub: "For inquiries and support",
     icon: (
       <svg

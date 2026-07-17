@@ -15,7 +15,7 @@ const slides: Slide[] = [
   {
     id: 1,
     gradient: "bg-gradient-to-br from-primary-dark via-charcoal to-primary",
-    label: "WELCOME TO ECONEST",
+    label: "WELCOME TO ECONEST PROPERTIES",
     heading: "Crafting Landmarks, Defining Lifestyles",
     subtitle:
       "Discover premium real estate developments that blend architectural excellence with sustainable living across Bangladesh.",
@@ -23,7 +23,7 @@ const slides: Slide[] = [
   {
     id: 2,
     gradient: "bg-gradient-to-br from-charcoal via-primary-dark to-charcoal",
-    label: "WELCOME TO ECONEST",
+    label: "WELCOME TO ECONEST PROPERTIES",
     heading: "Where Vision Meets Reality",
     subtitle:
       "From concept to completion, we deliver exceptional residential and commercial spaces that stand the test of time.",
@@ -31,7 +31,7 @@ const slides: Slide[] = [
   {
     id: 3,
     gradient: "bg-gradient-to-br from-sand via-primary to-charcoal",
-    label: "WELCOME TO ECONEST",
+    label: "WELCOME TO ECONEST PROPERTIES",
     heading: "Building Tomorrow's Heritage",
     subtitle:
       "Join a community of discerning homeowners who trust EcoNest Properties for uncompromising quality and timeless design.",
