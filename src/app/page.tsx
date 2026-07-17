@@ -24,15 +24,15 @@ const leadershipRoles = [
   },
   {
     role: "Director",
-    name: "Afroza Begum",
-    description:
-      "Bringing strategic direction and steady governance to guide EcoNest Properties' continued growth.",
-  },
-  {
-    role: "Director",
     name: "Shirin Akther",
     description:
       "Offering seasoned counsel and industry insight to strengthen EcoNest Properties' long-term vision.",
+  },
+  {
+    role: "Director",
+    name: "Afroza Begum",
+    description:
+      "Bringing strategic direction and steady governance to guide EcoNest Properties' continued growth.",
   },
 ];
 

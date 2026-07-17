@@ -18,23 +18,21 @@ export default function Header() {
     <>
       <header
         className={cn(
-          "fixed top-0 left-0 w-full z-50 transition-all duration-300",
-          isScrolled
-            ? "bg-cream/95 backdrop-blur-sm shadow-md"
-            : "bg-transparent"
+          "fixed top-0 left-0 w-full z-50 transition-all duration-300 bg-white",
+          isScrolled ? "shadow-md" : "shadow-sm"
         )}
       >
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="flex items-center justify-between h-20">
             {/* Logo */}
-            <Link href="/" className="flex-shrink-0 rounded-md px-3 py-1.5 ">
+            <Link href="/" className="flex-shrink-0 rounded-md px-3 py-1.5">
               <Image
-                src="/econestproperties.png"
+                src="/eco.png"
                 alt="EcoNest Properties"
-                width={1672}
-                height={941}
+                width={666}
+                height={375}
                 priority
-                className="h-18 w-auto md:h-25"
+                className="h-14 w-auto md:h-16"
               />
             </Link>
 
