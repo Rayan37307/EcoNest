@@ -22,6 +22,18 @@ const leadershipRoles = [
     description:
       "Overseeing operations, delivery, and client experience to ensure every project reflects quality and care.",
   },
+  {
+    role: "Director",
+    name: "Afroza Begum",
+    description:
+      "Bringing strategic direction and steady governance to guide EcoNest Properties' continued growth.",
+  },
+  {
+    role: "Advisor",
+    name: "Shirin Akther",
+    description:
+      "Offering seasoned counsel and industry insight to strengthen EcoNest Properties' long-term vision.",
+  },
 ];
 
 export default function HomePage() {
@@ -35,24 +47,31 @@ export default function HomePage() {
           <ScrollReveal>
             <SectionHeading
               label="Leadership"
-              title="Chairman & Managing Director"
+              title="Our Leadership Team"
               description="A team of experienced leaders bringing vision, discipline, and a strong green ethos to every development."
               align="center"
             />
           </ScrollReveal>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 mt-16 max-w-3xl mx-auto">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mt-16">
             {leadershipRoles.map((person, index) => (
               <ScrollReveal key={person.role} delay={index * 0.1}>
                 <div className="bg-white rounded-lg p-8 shadow-sm h-full text-center">
-                  <div className="relative w-28 h-28 rounded-full overflow-hidden mx-auto mb-5 ring-4 ring-primary/10">
-                    <Image
-                      src={person.image}
-                      alt={person.role}
-                      fill
-                      className="object-cover"
-                    />
-                  </div>
+                  {person.image && (
+                    <div className="relative w-28 h-28 rounded-full overflow-hidden mx-auto mb-5 ring-4 ring-primary/10">
+                      <Image
+                        src={person.image}
+                        alt={person.name ?? person.role}
+                        fill
+                        className="object-cover"
+                      />
+                    </div>
+                  )}
+                  {person.name && (
+                    <p className="text-lg font-bold text-charcoal mb-1">
+                      {person.name}
+                    </p>
+                  )}
                   <p className="text-sm font-semibold uppercase tracking-[0.2em] text-primary mb-3">
                     {person.role}
                   </p>
