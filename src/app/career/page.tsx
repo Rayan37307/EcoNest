@@ -151,7 +151,7 @@ export default function CareerPage() {
             Join Our Team
           </h1>
           <p className="text-cream/80 text-lg md:text-xl max-w-2xl mx-auto">
-            Build Your Career with EcoNest
+            Build Your Career with EcoNest Properties
           </p>
         </div>
       </section>
@@ -161,9 +161,9 @@ export default function CareerPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <ScrollReveal>
             <SectionHeading
-              label="WHY ECONEST"
+              label="WHY ECONEST PROPERTIES"
               title="Why Join Us?"
-              description="We believe great things are built by great people. Here's what makes EcoNest a special place to grow your career."
+              description="We believe great things are built by great people. Here's what makes EcoNest Properties a special place to grow your career."
               align="center"
             />
           </ScrollReveal>

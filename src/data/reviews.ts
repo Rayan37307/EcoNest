@@ -33,7 +33,7 @@ export const reviews: Review[] = [
     date: "2026-02-03",
     title: "Great tower, minor handover delays",
     comment:
-      "Loved the smart home features and the infinity pool. Handover slipped by about six weeks, but the EcoNest team communicated clearly throughout.",
+      "Loved the smart home features and the infinity pool. Handover slipped by about six weeks, but the EcoNest Properties team communicated clearly throughout.",
     verified: true,
   },
 
@@ -85,7 +85,7 @@ export const reviews: Review[] = [
     date: "2026-01-22",
     title: "Managed remotely without a hitch",
     comment:
-      "I purchased sight unseen while living abroad. EcoNest's transparency and regular video updates made the entire process stress-free. The finished unit matched every promise.",
+      "I purchased sight unseen while living abroad. EcoNest Properties' transparency and regular video updates made the entire process stress-free. The finished unit matched every promise.",
     verified: true,
   },
   {

@@ -11,10 +11,10 @@ export default function Footer() {
           <div className="sm:col-span-2 lg:col-span-1">
             <Link href="/" className="inline-block ">
               <Image
-                src="/logoo.png"
-                alt="EcoNest Builders Limited"
-                width={1693}
-                height={929}
+                src="/econestproperties.png"
+                alt="EcoNest Properties"
+                width={1672}
+                height={941}
                 className="h-25 w-auto"
               />
             </Link>
@@ -179,7 +179,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="mt-8 pt-6 border-t border-cream/10 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-xs text-cream/50">
-            © 2026 EcoNest. All Rights Reserved.
+            © 2026 EcoNest Properties. All Rights Reserved.
           </p>
           <p className="text-xs text-cream/50">
             Designed with ❤️

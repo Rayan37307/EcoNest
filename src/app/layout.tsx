@@ -20,12 +20,12 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "EcoNest | Premium Real Estate Developments",
-  description: "Discover luxury living with EcoNest — Bangladesh's premier real estate developer. Premium apartments, commercial spaces, and signature developments across Dhaka.",
-  keywords: "real estate, Bangladesh, Dhaka, luxury apartments, EcoNest, property developer",
+  title: "EcoNest Properties | Premium Real Estate Developments",
+  description: "Discover luxury living with EcoNest Properties — Bangladesh's premier real estate developer. Premium apartments, commercial spaces, and signature developments across Dhaka.",
+  keywords: "real estate, Bangladesh, Dhaka, luxury apartments, EcoNest Properties, property developer",
   openGraph: {
-    title: "EcoNest | Premium Real Estate Developments",
-    description: "Discover luxury living with EcoNest",
+    title: "EcoNest Properties | Premium Real Estate Developments",
+    description: "Discover luxury living with EcoNest Properties",
     type: "website",
   },
 };

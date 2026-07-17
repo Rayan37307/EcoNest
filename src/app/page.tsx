@@ -14,7 +14,7 @@ const leadershipRoles = [
     role: "Chairman",
     image: "/chairman.jpeg",
     description:
-      "The visionary leader shaping EcoNest with a clear focus on green living, trust, and long-term value.",
+      "The visionary leader shaping EcoNest Properties with a clear focus on green living, trust, and long-term value.",
   },
   {
     role: "Managing Director",

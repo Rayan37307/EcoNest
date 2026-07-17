@@ -32,7 +32,7 @@ export default function CTABanner() {
             <SectionHeading
               label="PARTNER WITH US"
               title="From Plots to Possibilities"
-              description="Transform your land into a landmark development. Partner with EcoNest to unlock the full potential of your property through our proven expertise in design, construction, and marketing."
+              description="Transform your land into a landmark development. Partner with EcoNest Properties to unlock the full potential of your property through our proven expertise in design, construction, and marketing."
               align="center"
               light
             />

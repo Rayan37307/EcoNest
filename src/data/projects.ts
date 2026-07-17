@@ -56,7 +56,7 @@ export const projects: Project[] = [
     location: "Baridhara, Dhaka",
     featured: true,
     description:
-      "Nestled among lush greenery, Green Valley is EcoNest's flagship eco-friendly residential community. Featuring solar-powered common areas, rainwater harvesting, and expansive green spaces, this project proves that luxury and sustainability can coexist beautifully. Residents enjoy a tranquil environment without compromising on urban conveniences.",
+      "Nestled among lush greenery, Green Valley is EcoNest Properties' flagship eco-friendly residential community. Featuring solar-powered common areas, rainwater harvesting, and expansive green spaces, this project proves that luxury and sustainability can coexist beautifully. Residents enjoy a tranquil environment without compromising on urban conveniences.",
     unitSizes: "1,800 - 4,200 sq ft",
     landSize: "120 Katha",
     buildingType: "Townhouse & Villa Community",

@@ -32,15 +32,15 @@ export async function generateMetadata({
 
   if (!project) {
     return {
-      title: "Project Not Found | EcoNest",
+      title: "Project Not Found | EcoNest Properties",
     };
   }
 
   return {
-    title: `${project.name} | EcoNest Real Estate`,
+    title: `${project.name} | EcoNest Properties Real Estate`,
     description: project.tagline,
     openGraph: {
-      title: `${project.name} — EcoNest Real Estate`,
+      title: `${project.name} — EcoNest Properties Real Estate`,
       description: project.tagline,
       type: "website",
     },

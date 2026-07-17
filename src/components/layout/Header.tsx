@@ -29,10 +29,10 @@ export default function Header() {
             {/* Logo */}
             <Link href="/" className="flex-shrink-0 rounded-md px-3 py-1.5 ">
               <Image
-                src="/logoo.png"
-                alt="EcoNest Builders Limited"
-                width={1693}
-                height={929}
+                src="/econestproperties.png"
+                alt="EcoNest Properties"
+                width={1672}
+                height={941}
                 priority
                 className="h-18 w-auto md:h-25"
               />

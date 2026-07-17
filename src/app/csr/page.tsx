@@ -22,14 +22,14 @@ const initiatives: Initiative[] = [
   {
     title: "Education for All",
     description:
-      "We believe every child deserves access to quality education. Through our school-building program and scholarship fund, EcoNest has helped construct fully equipped schools in underserved communities across Bangladesh. We also provide annual scholarships to meritorious students from low-income families, covering tuition, books, and supplies — giving them the tools they need to build a brighter future.",
+      "We believe every child deserves access to quality education. Through our school-building program and scholarship fund, EcoNest Properties has helped construct fully equipped schools in underserved communities across Bangladesh. We also provide annual scholarships to meritorious students from low-income families, covering tuition, books, and supplies — giving them the tools they need to build a brighter future.",
     gradient: "from-blue-900/20 to-emerald-900/20",
     stat: "10 Schools Built",
   },
   {
     title: "Green Bangladesh",
     description:
-      "Environmental stewardship is at the heart of our corporate identity. Our Green Bangladesh initiative focuses on large-scale tree plantation drives, community garden development, and advocacy for sustainable urban planning. Every EcoNest project includes dedicated green spaces, and we plant over 200 trees for every building we complete — ensuring that our growth contributes to a healthier, greener Bangladesh.",
+      "Environmental stewardship is at the heart of our corporate identity. Our Green Bangladesh initiative focuses on large-scale tree plantation drives, community garden development, and advocacy for sustainable urban planning. Every EcoNest Properties project includes dedicated green spaces, and we plant over 200 trees for every building we complete — ensuring that our growth contributes to a healthier, greener Bangladesh.",
     gradient: "from-emerald-900/20 to-lime-900/20",
     stat: "1,000+ Trees Planted",
   },
@@ -99,7 +99,7 @@ export default function CSRPage() {
               align="center"
             />
             <p className="text-stone leading-relaxed text-lg mt-6">
-              At EcoNest, we believe that the measure of a great company lies not
+              At EcoNest Properties, we believe that the measure of a great company lies not
               just in the quality of its buildings, but in the positive impact it
               has on society. Our CSR philosophy is rooted in the idea that
               business success and social responsibility go hand in hand. From

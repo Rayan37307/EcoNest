@@ -30,7 +30,7 @@ const milestones = [
     year: "2010",
     title: "Founded",
     description:
-      "EcoNest was established with a bold vision to redefine luxury living in Bangladesh.",
+      "EcoNest Properties was established with a bold vision to redefine luxury living in Bangladesh.",
   },
   {
     year: "2018",
@@ -48,7 +48,7 @@ const milestones = [
     year: "2024",
     title: "National Expansion",
     description:
-      "Expanded operations to Chittagong and Sylhet, bringing the EcoNest experience to new communities.",
+      "Expanded operations to Chittagong and Sylhet, bringing the EcoNest Properties experience to new communities.",
   },
 ];
 
@@ -57,7 +57,7 @@ const leadershipTeam = [
     role: "Chairman",
     image: "/chairman.jpeg",
     description:
-      "The driving force behind EcoNest's legacy, values, and long-term vision for green, meaningful living.",
+      "The driving force behind EcoNest Properties' legacy, values, and long-term vision for green, meaningful living.",
   },
   {
     role: "Managing Director",
@@ -98,7 +98,7 @@ export default function AboutPage() {
               </h2>
               <div className="space-y-5 text-stone leading-relaxed">
                 <p>
-                  Founded in 2010, EcoNest began as a humble endeavor by a group
+                  Founded in 2010, EcoNest Properties began as a humble endeavor by a group
                   of passionate architects and engineers who shared a singular
                   dream: to transform the landscape of luxury real estate in
                   Bangladesh. What started as a small residential project in
@@ -113,7 +113,7 @@ export default function AboutPage() {
                   has earned us the trust of over 500 homeowners and counting.
                 </p>
                 <p>
-                  Today, EcoNest is recognized for its thoughtfully designed
+                  Today, EcoNest Properties is recognized for its thoughtfully designed
                   residential compounds, cutting-edge commercial spaces, and
                   sustainable urban developments. Our projects blend modern
                   architecture with the warmth and richness of Bangladeshi
@@ -244,7 +244,7 @@ export default function AboutPage() {
             <SectionHeading
               label="Leadership"
               title="Chairman & Managing Director"
-              description="The people behind EcoNest bring experience, integrity, and a shared commitment to delivering refined living spaces."
+              description="The people behind EcoNest Properties bring experience, integrity, and a shared commitment to delivering refined living spaces."
               align="center"
             />
           </ScrollReveal>
