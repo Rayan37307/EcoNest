@@ -18,7 +18,7 @@ export default function Header() {
     <>
       <header
         className={cn(
-          "fixed top-0 left-0 w-full z-50 transition-all duration-300 bg-white",
+          "fixed top-0 left-0 w-full z-50 transition-all duration-300 bg-white/5 backdrop-blur-lg",
           isScrolled ? "shadow-md" : "shadow-sm"
         )}
       >
@@ -27,7 +27,7 @@ export default function Header() {
             {/* Logo */}
             <Link href="/" className="flex-shrink-0 rounded-md px-3 py-1.5">
               <Image
-                src="/eco.png"
+                src="/logo2.png"
                 alt="EcoNest Properties"
                 width={666}
                 height={375}

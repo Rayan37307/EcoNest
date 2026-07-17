@@ -94,13 +94,13 @@ export default function HeroSlideshow() {
           <div className="absolute inset-0 flex items-end">
             <div className="w-full px-6 pb-24 md:px-16 lg:pb-32 lg:px-24">
               <div className="max-w-3xl">
-                <p className="mb-4 text-xs uppercase tracking-[0.2em] text-gold">
+                <p className="mb-2 text-[18px] uppercase tracking-[0.2em] text-white">
                   {slide.label}
                 </p>
-                <h1 className="mb-6 text-4xl font-heading font-bold leading-tight text-white md:text-6xl lg:text-7xl">
+                <h1 className="mb-2 text-4xl font-heading font-bold leading-tight text-white md:text-6xl lg:text-7xl">
                   {slide.heading}
                 </h1>
-                <p className="mb-8 max-w-xl text-lg leading-relaxed text-white/80">
+                <p className="mb-2 max-w-xl text-lg leading-relaxed text-white/80">
                   {slide.subtitle}
                 </p>
                 <Button
