@@ -55,12 +55,14 @@ const milestones = [
 const leadershipTeam = [
   {
     role: "Chairman",
+    name: "Md Awlad Hossain",
     image: "/chairman.jpeg",
     description:
       "The driving force behind EcoNest Properties' legacy, values, and long-term vision for green, meaningful living.",
   },
   {
     role: "Managing Director",
+    name: "Md Tarequl Islam",
     image: "/managing director.jpeg",
     description:
       "Ensuring smooth execution, operational excellence, and a premium experience for every client.",

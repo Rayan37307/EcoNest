@@ -12,12 +12,14 @@ import SectionHeading from "@/components/ui/SectionHeading";
 const leadershipRoles = [
   {
     role: "Chairman",
+    name: "Md Awlad Hossain",
     image: "/chairman.jpeg",
     description:
       "The visionary leader shaping EcoNest Properties with a clear focus on green living, trust, and long-term value.",
   },
   {
     role: "Managing Director",
+    name: "Md Tarequl Islam",
     image: "/managing director.jpeg",
     description:
       "Overseeing operations, delivery, and client experience to ensure every project reflects quality and care.",
