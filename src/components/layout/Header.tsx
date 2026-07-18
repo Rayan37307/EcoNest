@@ -27,7 +27,7 @@ export default function Header() {
             {/* Logo */}
             <Link href="/" className="flex-shrink-0 rounded-md px-3 py-1.5">
               <Image
-                src="/logo2.png"
+                src="/logo5.png"
                 alt="EcoNest Properties"
                 width={666}
                 height={375}
