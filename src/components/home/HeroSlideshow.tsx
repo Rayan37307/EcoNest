@@ -15,26 +15,10 @@ const slides: Slide[] = [
   {
     id: 1,
     gradient: "bg-gradient-to-br from-primary-dark via-charcoal to-primary",
-    label: "WELCOME TO ECONEST PROPERTIES",
+    label: "WELCOME TO EcoNest Properties",
     heading: "Crafting Landmarks, Defining Lifestyles",
     subtitle:
       "Discover premium real estate developments that blend architectural excellence with sustainable living across Bangladesh.",
-  },
-  {
-    id: 2,
-    gradient: "bg-gradient-to-br from-charcoal via-primary-dark to-charcoal",
-    label: "WELCOME TO ECONEST PROPERTIES",
-    heading: "Where Vision Meets Reality",
-    subtitle:
-      "From concept to completion, we deliver exceptional residential and commercial spaces that stand the test of time.",
-  },
-  {
-    id: 3,
-    gradient: "bg-gradient-to-br from-sand via-primary to-charcoal",
-    label: "WELCOME TO ECONEST PROPERTIES",
-    heading: "Building Tomorrow's Heritage",
-    subtitle:
-      "Join a community of discerning homeowners who trust EcoNest Properties for uncompromising quality and timeless design.",
   },
 ];
 
@@ -84,7 +68,7 @@ export default function HeroSlideshow() {
             playsInline
             preload="auto"
             className="absolute inset-0 h-full w-full object-cover"
-            src="/videos/Residential_tower_with_vertical_…_202607032222.mp4"
+            src="/videos/video.mp4"
           />
 
           {/* Dark overlay */}
@@ -100,7 +84,7 @@ export default function HeroSlideshow() {
                 <h1 className="mb-2 text-4xl font-heading font-bold leading-tight text-white md:text-6xl lg:text-7xl">
                   {slide.heading}
                 </h1>
-                <p className="mb-2 max-w-xl text-lg leading-relaxed text-white/80">
+                <p className="mb-2 max-w-xl text-xl leading-relaxed text-white md:text-2xl">
                   {slide.subtitle}
                 </p>
                 <Button

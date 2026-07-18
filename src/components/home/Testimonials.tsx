@@ -66,7 +66,7 @@ export default function Testimonials() {
                 </div>
 
                 {/* Quote text */}
-                <blockquote className="mb-8 text-xl leading-relaxed font-heading italic text-cream/90 md:text-2xl">
+                <blockquote className="mb-8 text-2xl leading-relaxed font-heading italic text-white md:text-3xl">
                   {testimonial.quote}
                 </blockquote>
 
@@ -86,7 +86,7 @@ export default function Testimonials() {
                   <p className="text-lg font-semibold text-white">
                     {testimonial.name}
                   </p>
-                  <p className="text-sm text-stone">
+                  <p className="text-base text-white">
                     {testimonial.title}
                   </p>
                 </div>

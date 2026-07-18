@@ -18,8 +18,8 @@ export default function Header() {
     <>
       <header
         className={cn(
-          "fixed top-0 left-0 w-full z-50 transition-all duration-300 bg-white/5 backdrop-blur-lg",
-          isScrolled ? "shadow-md" : "shadow-sm"
+          "fixed top-0 left-0 w-full z-50 transition-all duration-300 backdrop-blur-lg",
+          isScrolled ? "bg-charcoal/90 shadow-md" : "bg-charcoal/30 shadow-sm"
         )}
       >
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
@@ -45,8 +45,8 @@ export default function Header() {
                   className={cn(
                     "text-sm uppercase tracking-wider transition-colors duration-200",
                     pathname === link.href
-                      ? "text-primary font-medium"
-                      : "text-charcoal/70 hover:text-primary"
+                      ? "text-gold font-medium"
+                      : "text-white hover:text-gold"
                   )}
                 >
                   {link.label}
@@ -70,9 +70,9 @@ export default function Header() {
                 className="lg:hidden flex flex-col items-center justify-center w-10 h-10 gap-1.5"
                 aria-label="Open menu"
               >
-                <span className="block w-6 h-0.5 bg-charcoal transition-all duration-300" />
-                <span className="block w-6 h-0.5 bg-charcoal transition-all duration-300" />
-                <span className="block w-4 h-0.5 bg-charcoal transition-all duration-300" />
+                <span className="block w-6 h-0.5 bg-white transition-all duration-300" />
+                <span className="block w-6 h-0.5 bg-white transition-all duration-300" />
+                <span className="block w-4 h-0.5 bg-white transition-all duration-300" />
               </button>
             </div>
           </div>

@@ -13,7 +13,7 @@
   --color-black: #000000;
 
   /* Font families */
-  --font-heading: "Space Grotesk", sans-serif;
+  --font-heading: var(--font-playfair-display), serif;
   --font-body: "Poppins", sans-serif;
 
   /* Custom spacing */

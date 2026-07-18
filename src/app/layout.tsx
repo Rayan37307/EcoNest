@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Space_Grotesk, Poppins } from "next/font/google";
+import { Playfair_Display, Poppins } from "next/font/google";
 import "./globals.css";
 import Link from "next/link";
 import Header from "@/components/layout/Header";
@@ -7,9 +7,10 @@ import Footer from "@/components/layout/Footer";
 import SmoothScroll from "@/components/providers/SmoothScroll";
 import { contactInfo } from "@/data/navigation";
 
-const spaceGrotesk = Space_Grotesk({
-  variable: "--font-heading",
+const playfairDisplay = Playfair_Display({
+  variable: "--font-playfair-display",
   subsets: ["latin"],
+  weight: ["500", "600", "700", "800"],
   display: "swap",
 });
 
@@ -36,7 +37,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   const whatsappHref = `https://wa.me/${whatsappNumber}`;
 
   return (
-    <html lang="en" className={`${spaceGrotesk.variable} ${poppins.variable}`}>
+    <html lang="en" className={`${playfairDisplay.variable} ${poppins.variable}`}>
       <body className="font-body text-charcoal bg-white antialiased">
         <SmoothScroll>
           <Header />

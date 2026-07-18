@@ -18,7 +18,7 @@ export default function Footer() {
                 className="h-25 w-auto"
               />
             </Link>
-            <p className="mt-4 text-cream/70 text-sm leading-relaxed max-w-xs">
+            <p className="mt-4 text-white text-base leading-relaxed max-w-xs">
               Creating sustainable living spaces that harmonize with nature.
               We build homes that nurture both you and the environment.
             </p>
@@ -26,7 +26,7 @@ export default function Footer() {
 
           {/* Column 2: Quick Links */}
           <div>
-            <h3 className="font-heading text-lg font-semibold mb-6 text-cream">
+            <h3 className="font-heading text-lg font-semibold mb-6 text-white">
               Quick Links
             </h3>
             <ul className="space-y-3">
@@ -34,7 +34,7 @@ export default function Footer() {
                 <li key={link.href}>
                   <Link
                     href={link.href}
-                    className="text-sm text-cream/70 hover:text-gold transition-colors duration-200"
+                    className="text-base text-white hover:text-gold transition-colors duration-200"
                   >
                     {link.label}
                   </Link>
@@ -45,7 +45,7 @@ export default function Footer() {
 
           {/* Column 3: Services */}
           <div>
-            <h3 className="font-heading text-lg font-semibold mb-6 text-cream">
+            <h3 className="font-heading text-lg font-semibold mb-6 text-white">
               Services
             </h3>
             <ul className="space-y-3">
@@ -53,7 +53,7 @@ export default function Footer() {
                 <li key={link.href}>
                   <Link
                     href={link.href}
-                    className="text-sm text-cream/70 hover:text-gold transition-colors duration-200"
+                    className="text-base text-white hover:text-gold transition-colors duration-200"
                   >
                     {link.label}
                   </Link>
@@ -64,12 +64,12 @@ export default function Footer() {
 
           {/* Column 4: Contact Info */}
           <div>
-            <h3 className="font-heading text-lg font-semibold mb-6 text-cream">
+            <h3 className="font-heading text-lg font-semibold mb-6 text-white">
               Contact Us
             </h3>
             <ul className="space-y-4">
               {/* Address */}
-              <li className="flex gap-3 text-sm text-cream/70">
+              <li className="flex gap-3 text-base text-white">
                 <svg
                   className="w-5 h-5 text-gold flex-shrink-0 mt-0.5"
                   fill="none"
@@ -92,7 +92,7 @@ export default function Footer() {
               </li>
 
               {/* Phone */}
-              <li className="flex gap-3 text-sm text-cream/70">
+              <li className="flex gap-3 text-base text-white">
                 <svg
                   className="w-5 h-5 text-gold flex-shrink-0 mt-0.5"
                   fill="none"
@@ -123,7 +123,7 @@ export default function Footer() {
               </li>
 
               {/* Email */}
-              <li className="flex gap-3 text-sm text-cream/70">
+              <li className="flex gap-3 text-base text-white">
                 <svg
                   className="w-5 h-5 text-gold flex-shrink-0 mt-0.5"
                   fill="none"
@@ -146,7 +146,7 @@ export default function Footer() {
               </li>
 
               {/* Hours */}
-              <li className="flex gap-3 text-sm text-cream/70">
+              <li className="flex gap-3 text-base text-white">
                 <svg
                   className="w-5 h-5 text-gold flex-shrink-0 mt-0.5"
                   fill="none"
@@ -178,10 +178,10 @@ export default function Footer() {
 
         {/* Bottom Bar */}
         <div className="mt-8 pt-6 border-t border-cream/10 flex flex-col sm:flex-row items-center justify-between gap-4">
-          <p className="text-xs text-cream/50">
+          <p className="text-sm text-white">
             © 2026 EcoNest Properties. All Rights Reserved.
           </p>
-          <p className="text-xs text-cream/50">
+          <p className="text-sm text-white">
             Designed with ❤️
           </p>
         </div>
@@ -200,7 +200,7 @@ function renderSocialIconLink(
       href={href}
       target="_blank"
       rel="noopener noreferrer"
-      className="flex items-center justify-center w-10 h-10 rounded-full bg-cream/10 hover:bg-gold text-cream/70 hover:text-charcoal transition-colors duration-200"
+      className="flex items-center justify-center w-10 h-10 rounded-full bg-white/10 hover:bg-gold text-white hover:text-charcoal transition-colors duration-200"
       aria-label={label}
     >
       <SocialIcon name={label} />

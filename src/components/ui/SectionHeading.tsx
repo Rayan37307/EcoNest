@@ -37,7 +37,7 @@ export default function SectionHeading({
       <h2
         className={cn(
           "text-3xl md:text-4xl lg:text-5xl font-heading font-bold",
-          light ? "text-cream" : "text-charcoal"
+          light ? "text-white" : "text-charcoal"
         )}
       >
         {title}
@@ -45,8 +45,8 @@ export default function SectionHeading({
       {description && (
         <p
           className={cn(
-            "text-base md:text-lg mt-4 max-w-2xl leading-relaxed",
-            light ? "text-cream/70" : "text-stone/80",
+            "text-lg md:text-xl mt-4 max-w-2xl leading-relaxed",
+            light ? "text-white" : "text-charcoal",
             align === "center" && "mx-auto"
           )}
         >

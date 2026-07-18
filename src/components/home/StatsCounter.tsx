@@ -33,11 +33,11 @@ function StatCard({
       )}
       style={{ transitionDelay: `${delay}ms` }}
     >
-      <span className="text-4xl font-heading font-bold text-charcoal md:text-5xl">
+      <span className="text-5xl font-heading font-bold text-white md:text-6xl">
         {shouldAnimate ? count : 0}
         {suffix}
       </span>
-      <span className="mt-2 text-sm uppercase tracking-[0.15em] text-stone">
+      <span className="mt-2 text-base uppercase tracking-[0.15em] text-white">
         {label}
       </span>
     </div>
@@ -50,11 +50,11 @@ export default function StatsCounter() {
   });
 
   return (
-    <section ref={sectionRef} className="w-full bg-sand">
+    <section ref={sectionRef} className="w-full bg-charcoal">
       {/* Subtle top decorative line */}
       <div className="mx-auto h-px max-w-xs bg-gold/30" />
 
-      <div className="mx-auto grid max-w-6xl grid-cols-2 gap-px bg-stone/20 md:grid-cols-4 md:gap-0">
+      <div className="mx-auto grid max-w-6xl grid-cols-2 gap-px bg-white/10 md:grid-cols-4 md:gap-0">
         {stats.map((stat, index) => (
           <StatCard
             key={stat.label}

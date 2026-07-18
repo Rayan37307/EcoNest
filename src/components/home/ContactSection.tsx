@@ -79,7 +79,7 @@ export default function ContactSection() {
   };
 
   return (
-    <section className="w-full bg-cream py-20 md:py-28">
+    <section className="w-full bg-charcoal py-20 md:py-28">
       <div className="mx-auto max-w-7xl px-6 md:px-12">
         <div className="grid gap-12 lg:grid-cols-2 lg:gap-20">
           {/* Left column — Info */}
@@ -90,6 +90,7 @@ export default function ContactSection() {
                 title="Connect. Collaborate. Create."
                 description="Whether you're interested in our developments, exploring partnership opportunities, or simply want to learn more — we'd love to hear from you."
                 align="left"
+                light
               />
 
               <div className="mt-10 space-y-6">
@@ -114,10 +115,10 @@ export default function ContactSection() {
                     />
                   </svg>
                   <div>
-                    <p className="text-xs uppercase tracking-wider text-stone">
+                    <p className="text-sm uppercase tracking-wider text-white">
                       Office Address
                     </p>
-                    <p className="mt-1 text-sm leading-relaxed text-charcoal/80">
+                    <p className="mt-1 text-base leading-relaxed text-white">
                       {contactInfo.address}
                     </p>
                   </div>
@@ -139,13 +140,13 @@ export default function ContactSection() {
                     />
                   </svg>
                   <div>
-                    <p className="text-xs uppercase tracking-wider text-stone">
+                    <p className="text-sm uppercase tracking-wider text-white">
                       Phone
                     </p>
-                    <p className="mt-1 text-sm text-charcoal/80">
+                    <p className="mt-1 text-base text-white">
                       {contactInfo.phone}
                     </p>
-                    <p className="mt-0.5 text-sm text-charcoal/80">
+                    <p className="mt-0.5 text-base text-white">
                       {contactInfo.phone2}
                     </p>
                   </div>
@@ -167,10 +168,10 @@ export default function ContactSection() {
                     />
                   </svg>
                   <div>
-                    <p className="text-xs uppercase tracking-wider text-stone">
+                    <p className="text-sm uppercase tracking-wider text-white">
                       Email
                     </p>
-                    <p className="mt-1 text-sm text-charcoal/80">
+                    <p className="mt-1 text-base text-white">
                       {contactInfo.email}
                     </p>
                   </div>
@@ -179,7 +180,7 @@ export default function ContactSection() {
 
               {/* Social links */}
               <div className="mt-10">
-                <p className="mb-4 text-xs uppercase tracking-wider text-stone">
+                <p className="mb-4 text-sm uppercase tracking-wider text-white">
                   Follow Us
                 </p>
                 <div className="flex gap-4">
@@ -188,7 +189,7 @@ export default function ContactSection() {
                       key={social.name}
                       href="#"
                       aria-label={social.name}
-                      className="flex h-10 w-10 items-center justify-center rounded-full border border-primary/20 text-primary transition-colors hover:bg-primary hover:text-white"
+                      className="flex h-10 w-10 items-center justify-center rounded-full border border-white/30 text-white transition-colors hover:bg-gold hover:border-gold hover:text-charcoal"
                     >
                       <svg
                         className="h-4 w-4"
@@ -208,7 +209,7 @@ export default function ContactSection() {
           <ScrollReveal direction="right">
             <div>
               {isSubmitted ? (
-                <div className="flex h-full flex-col items-center justify-center rounded-lg bg-white p-12 text-center shadow-sm">
+                <div className="flex h-full flex-col items-center justify-center rounded-lg bg-white/5 border border-white/10 p-12 text-center">
                   <div className="mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-gold/10">
                     <svg
                       className="h-8 w-8 text-gold"
@@ -224,10 +225,10 @@ export default function ContactSection() {
                       />
                     </svg>
                   </div>
-                  <h3 className="text-2xl font-heading font-bold text-charcoal">
+                  <h3 className="text-2xl font-heading font-bold text-white">
                     Thank You
                   </h3>
-                  <p className="mt-3 text-stone">
+                  <p className="mt-3 text-lg text-white">
                     We&apos;ve received your message and will get back to you
                     within 24 hours.
                   </p>
@@ -245,16 +246,16 @@ export default function ContactSection() {
               ) : (
                 <form
                   onSubmit={handleSubmit}
-                  className="space-y-5 rounded-lg bg-white p-8 shadow-sm md:p-10"
+                  className="space-y-5 rounded-lg bg-white/5 border border-white/10 p-8 md:p-10"
                   noValidate
                 >
                   {/* Name */}
                   <div>
                     <label
                       htmlFor="contact-name"
-                      className="mb-2 block text-xs uppercase tracking-wider text-stone"
+                      className="mb-2 block text-sm uppercase tracking-wider text-white"
                     >
-                      Name <span className="text-red-500">*</span>
+                      Name <span className="text-red-400">*</span>
                     </label>
                     <input
                       id="contact-name"
@@ -262,15 +263,15 @@ export default function ContactSection() {
                       value={formData.name}
                       onChange={(e) => handleChange("name", e.target.value)}
                       className={cn(
-                        "w-full border bg-transparent px-4 py-3 text-sm text-charcoal placeholder:text-stone/50 transition-colors focus:outline-none focus:ring-1",
+                        "w-full border bg-transparent px-4 py-3 text-base text-white placeholder:text-white/40 transition-colors focus:outline-none focus:ring-1",
                         errors.name
                           ? "border-red-400 focus:border-red-500 focus:ring-red-500"
-                          : "border-stone/30 focus:border-primary focus:ring-primary"
+                          : "border-white/30 focus:border-gold focus:ring-gold"
                       )}
                       placeholder="Your full name"
                     />
                     {errors.name && (
-                      <p className="mt-1 text-xs text-red-500">{errors.name}</p>
+                      <p className="mt-1 text-sm text-red-400">{errors.name}</p>
                     )}
                   </div>
 
@@ -278,9 +279,9 @@ export default function ContactSection() {
                   <div>
                     <label
                       htmlFor="contact-email"
-                      className="mb-2 block text-xs uppercase tracking-wider text-stone"
+                      className="mb-2 block text-sm uppercase tracking-wider text-white"
                     >
-                      Email <span className="text-red-500">*</span>
+                      Email <span className="text-red-400">*</span>
                     </label>
                     <input
                       id="contact-email"
@@ -288,15 +289,15 @@ export default function ContactSection() {
                       value={formData.email}
                       onChange={(e) => handleChange("email", e.target.value)}
                       className={cn(
-                        "w-full border bg-transparent px-4 py-3 text-sm text-charcoal placeholder:text-stone/50 transition-colors focus:outline-none focus:ring-1",
+                        "w-full border bg-transparent px-4 py-3 text-base text-white placeholder:text-white/40 transition-colors focus:outline-none focus:ring-1",
                         errors.email
                           ? "border-red-400 focus:border-red-500 focus:ring-red-500"
-                          : "border-stone/30 focus:border-primary focus:ring-primary"
+                          : "border-white/30 focus:border-gold focus:ring-gold"
                       )}
                       placeholder="your@email.com"
                     />
                     {errors.email && (
-                      <p className="mt-1 text-xs text-red-500">{errors.email}</p>
+                      <p className="mt-1 text-sm text-red-400">{errors.email}</p>
                     )}
                   </div>
 
@@ -304,7 +305,7 @@ export default function ContactSection() {
                   <div>
                     <label
                       htmlFor="contact-phone"
-                      className="mb-2 block text-xs uppercase tracking-wider text-stone"
+                      className="mb-2 block text-sm uppercase tracking-wider text-white"
                     >
                       Phone
                     </label>
@@ -313,7 +314,7 @@ export default function ContactSection() {
                       type="tel"
                       value={formData.phone}
                       onChange={(e) => handleChange("phone", e.target.value)}
-                      className="w-full border border-stone/30 bg-transparent px-4 py-3 text-sm text-charcoal placeholder:text-stone/50 transition-colors focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary"
+                      className="w-full border border-white/30 bg-transparent px-4 py-3 text-base text-white placeholder:text-white/40 transition-colors focus:border-gold focus:outline-none focus:ring-1 focus:ring-gold"
                       placeholder="+880 1XXX-XXXXXX"
                     />
                   </div>
@@ -322,9 +323,9 @@ export default function ContactSection() {
                   <div>
                     <label
                       htmlFor="contact-message"
-                      className="mb-2 block text-xs uppercase tracking-wider text-stone"
+                      className="mb-2 block text-sm uppercase tracking-wider text-white"
                     >
-                      Message <span className="text-red-500">*</span>
+                      Message <span className="text-red-400">*</span>
                     </label>
                     <textarea
                       id="contact-message"
@@ -332,15 +333,15 @@ export default function ContactSection() {
                       value={formData.message}
                       onChange={(e) => handleChange("message", e.target.value)}
                       className={cn(
-                        "w-full resize-none border bg-transparent px-4 py-3 text-sm text-charcoal placeholder:text-stone/50 transition-colors focus:outline-none focus:ring-1",
+                        "w-full resize-none border bg-transparent px-4 py-3 text-base text-white placeholder:text-white/40 transition-colors focus:outline-none focus:ring-1",
                         errors.message
                           ? "border-red-400 focus:border-red-500 focus:ring-red-500"
-                          : "border-stone/30 focus:border-primary focus:ring-primary"
+                          : "border-white/30 focus:border-gold focus:ring-gold"
                       )}
                       placeholder="Tell us about your inquiry..."
                     />
                     {errors.message && (
-                      <p className="mt-1 text-xs text-red-500">
+                      <p className="mt-1 text-sm text-red-400">
                         {errors.message}
                       </p>
                     )}

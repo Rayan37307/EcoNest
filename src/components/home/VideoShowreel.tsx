@@ -61,7 +61,7 @@ export default function VideoShowreel() {
         </button>
 
         {/* Text below play button */}
-        <p className="mt-8 text-sm uppercase tracking-[0.25em] text-cream">
+        <p className="mt-8 text-base uppercase tracking-[0.25em] text-white">
           Watch Our Showreel
         </p>
       </div>
