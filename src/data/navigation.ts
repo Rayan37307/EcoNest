@@ -29,9 +29,6 @@ export const footerLinks = {
 
 export const socialLinks = [
   { label: "Facebook", href: "https://www.facebook.com/profile.php?id=61591355652505", icon: "facebook" },
-  { label: "Instagram", href: "https://instagram.com", icon: "instagram" },
-  { label: "LinkedIn", href: "https://linkedin.com", icon: "linkedin" },
-  { label: "YouTube", href: "https://youtube.com", icon: "youtube" },
 ];
 
 export const contactInfo = {
