@@ -48,15 +48,17 @@ export default function ProjectsPage() {
       <section className="py-16 px-6">
         <div className="max-w-7xl mx-auto">
           {/* Filter */}
-          <ScrollReveal>
-            <div className="flex justify-center mb-12">
-              <ProjectFilter
-                activeFilter={activeFilter}
-                onFilterChange={setActiveFilter}
-                categories={categories}
-              />
-            </div>
-          </ScrollReveal>
+          {categories.length > 0 && (
+            <ScrollReveal>
+              <div className="flex justify-center mb-12">
+                <ProjectFilter
+                  activeFilter={activeFilter}
+                  onFilterChange={setActiveFilter}
+                  categories={categories}
+                />
+              </div>
+            </ScrollReveal>
+          )}
 
           {/* Project grid */}
           {filteredProjects.length > 0 ? (
@@ -66,6 +68,16 @@ export default function ProjectsPage() {
                   <ProjectCard project={project} />
                 </ScrollReveal>
               ))}
+            </div>
+          ) : projects.length === 0 ? (
+            <div className="text-center py-20">
+              <p className="text-2xl font-heading font-semibold text-charcoal mb-3">
+                Coming Soon
+              </p>
+              <p className="text-stone text-lg max-w-xl mx-auto">
+                We&apos;re preparing our first developments. Check back soon
+                to explore our upcoming residential and commercial projects.
+              </p>
             </div>
           ) : (
             <div className="text-center py-20">
