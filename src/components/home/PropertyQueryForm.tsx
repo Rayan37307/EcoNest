@@ -29,7 +29,7 @@ const propertyTypes = [
 ];
 
 const areas = [
-  { value: "swarnali-abashon", label: "Swarnali Abashon" },
+  { value: "shornali-abashon", label: "Shornali Abashon" },
   { value: "bashundhara-ra", label: "Bashundhara R/A" },
   { value: "purbachal-new-town", label: "Purbachal New Town" },
 ];
@@ -280,7 +280,7 @@ export default function PropertyQueryForm() {
           <SectionHeading
             label="Property Enquiry"
             title="Tell Us What You're Looking For"
-            description="Share your budget, preferred area, and plot or unit size — our consultants will come back to you with matching options in Swarnali Abashon, Bashundhara R/A, and Purbachal New Town."
+            description="Share your budget, preferred area, and plot or unit size — our consultants will come back to you with matching options in Shornali Abashon, Bashundhara R/A, and Purbachal New Town."
             align="center"
             light
           />
