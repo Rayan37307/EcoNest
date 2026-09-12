@@ -90,12 +90,12 @@ const emptyForm: QueryForm = {
 };
 
 const fieldBase =
-  "w-full rounded-sm border bg-charcoal px-4 py-3 text-base text-white transition-colors placeholder:text-white/40 focus:outline-none focus:ring-1";
+  "w-full rounded-sm border bg-transparent px-4 py-3 text-base text-white transition-colors placeholder:text-white/40 focus:outline-none focus:ring-1";
 
 const fieldState = (hasError?: string) =>
   hasError
     ? "border-red-400 focus:border-red-500 focus:ring-red-500"
-    : "border-white/20 focus:border-gold focus:ring-gold";
+    : "border-white/30 focus:border-gold focus:ring-gold";
 
 const labelClass =
   "mb-2 block text-xs font-semibold uppercase tracking-[0.15em] text-white";
@@ -212,7 +212,7 @@ export default function PropertyQueryForm() {
     ];
 
     return (
-      <section id="property-query" className="w-full bg-primary-dark py-20 md:py-28">
+      <section id="property-query" className="w-full bg-charcoal py-20 md:py-28">
         <div className="mx-auto max-w-3xl px-6 md:px-12">
           <ScrollReveal>
             <div className="rounded-lg border border-white/10 bg-white/5 p-10 text-center md:p-14">
@@ -274,7 +274,7 @@ export default function PropertyQueryForm() {
   }
 
   return (
-    <section id="property-query" className="w-full bg-primary-dark py-20 md:py-28">
+    <section id="property-query" className="w-full bg-charcoal py-20 md:py-28">
       <div className="mx-auto max-w-5xl px-6 md:px-12">
         <ScrollReveal>
           <SectionHeading
