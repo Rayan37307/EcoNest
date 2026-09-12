@@ -6,6 +6,7 @@ import FeaturedProjects from "@/components/home/FeaturedProjects";
 import CTABanner from "@/components/home/CTABanner";
 import Testimonials from "@/components/home/Testimonials";
 import ContactSection from "@/components/home/ContactSection";
+import PropertyQueryForm from "@/components/home/PropertyQueryForm";
 import ScrollReveal from "@/components/ui/ScrollReveal";
 import SectionHeading from "@/components/ui/SectionHeading";
 
@@ -88,6 +89,7 @@ export default function HomePage() {
       <CTABanner />
       <Testimonials />
       <ContactSection />
+      <PropertyQueryForm />
     </>
   );
 }
